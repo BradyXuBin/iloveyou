@@ -108,8 +108,8 @@ body {
 <!-- 指定全局的分享图片 -->
 <input id="wsPic" type="hidden" value="http://7rfl2o.com1.z0.glb.clouddn.com/38dbb6fd5266d016f7d17237912bd40734fa35e1.jpg">
 
-<script type="text/javascript" src="http://7rfl2o.com1.z0.glb.clouddn.com/jquery.min.js"></script>
-<script type="text/javascript" src="http://7rfl2o.com1.z0.glb.clouddn.com/jquery.wshare.js"></script>
+<script type="text/javascript" src="./jquery.min.js"></script>
+<script type="text/javascript" src="./jquery.wshare.js"></script>
 <!-- <script type="text/javascript" src="http://lukesign.qiniudn.com/sm/soundmanager2-nodebug-jsmin.js"></script> -->
 <script type="text/javascript">
 (function(a,b){"use strict";var c=function(){var a=[["requestFullscreen","exitFullscreen","fullscreenchange","fullscreen","fullscreenElement"],["webkitRequestFullScreen","webkitCancelFullScreen","webkitfullscreenchange","webkitIsFullScreen","webkitCurrentFullScreenElement"],["mozRequestFullScreen","mozCancelFullScreen","mozfullscreenchange","mozFullScreen","mozFullScreenElement"]];for(var c=0,d=a.length;c<d;c++){var e=a[c];if(e[1]in b)return e}}();if(!c)return a.screenfull=!1;var d="ALLOW_KEYBOARD_INPUT"in Element,e={init:function(){return b.addEventListener(c[2],function(a){e.isFullscreen=b[c[3]],e.element=b[c[4]],e.onchange(a)}),this},isFullscreen:b[c[3]],element:b[c[4]],request:function(a){a=a||b.documentElement,a[c[0]](d&&Element.ALLOW_KEYBOARD_INPUT),b.isFullscreen||a[c[0]]()},exit:function(){b[c[1]]()},toggle:function(a){this.isFullscreen?this.exit():this.request(a)},onchange:function(){}};a.screenfull=e.init()})(window,document)
@@ -560,15 +560,6 @@ window.onload = function() {
     //     MUSIC.load();
     // }
 };
-</script>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "http://hm.baidu.com/hm.js?c142366bae08a5add7c3c1ce2703b10d";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
 </script>
 <audio id="bgaudio" src="http://7rfl2o.com1.z0.glb.clouddn.com/LemonTree.mp3"></audio>
 <script>
